@@ -1,0 +1,71 @@
+body {
+    font-family: 'Lucida Bright', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+    background-image: url(wall.webp);
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.home-logo {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.background-content {
+    background-color: rgba(240, 240, 240, 240);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}

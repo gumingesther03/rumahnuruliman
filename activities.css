@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Lucida Bright', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-attachment: fixed;
+    background-image: url(wall.webp);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.home-logo {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-logo {
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.activities {
+  padding: 8rem;
+  text-align: center;
+}
+
+.news {
+  display: flex;
+  height: 20rem;
+    gap:1rem
+}
+
+.news > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+        background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.news > div:hover {
+    flex: 5;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  bottom:

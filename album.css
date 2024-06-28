@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Lucida Bright', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-attachment: fixed;
+    background-image: url(wall.webp);
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.home-logo {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.home-logo {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.achievement {
+    padding: 4rem;
+    text-align: center;
+}
+
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.achievement-item {
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(24, 240, 240, 240);
+    max-width: 300px;
+    text-align: center;
+}
+
+.achievement-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}

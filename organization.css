@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Lucida Bright', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-attachment: fixed;
+    background-image: url(wall.webp);
+}
+
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 1rem;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #FFD700;
+}
+
+.home-logo {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.organization-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.organization-chart h1 {
+    margin-bottom: 1rem;
+}
+
+.org-chart-img {
+    max-width: 50%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+}
